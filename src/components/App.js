@@ -1,13 +1,21 @@
 import React from "react";
+import About from "./About";
+import Home from "./Home";
+import NavBar from "./NavBar";
+import { username, city, image } from "../data/user.js"
 
 function App() {
-  return (
-    <div>
-      <NavBar />
-      <Home />
-      <About />
-    </div>
-  );
+    return ( <
+        div >
+        <
+        NavBar / >
+        <
+        Home / >
+        <
+        About / >
+        <
+        /div>
+    );
 }
 
 export default App;
